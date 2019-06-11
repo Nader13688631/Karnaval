@@ -1,0 +1,70 @@
+.next-banner-root {
+
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc107;
+    direction: rtl;
+    
+
+}
+.next-banner-text {
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+
+
+}
+.next-banner-button {
+
+    color: rgba(0, 0, 0, 0.54);
+    padding: 2px 10px;
+    
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 0.75rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1.95;
+
+
+
+
+}
+.next-banner-root:hover .next-banner-button-icon {
+
+    right: 5px;
+
+}
+
+.next-banner-button-icon {
+
+    position: relative;
+    right: 1px;
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    text-transform: capitalize;   
+}
